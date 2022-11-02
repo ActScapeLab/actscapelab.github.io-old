@@ -19,6 +19,7 @@ html {
   font-size: 1em;
 }
 
+/* 一番上の灰色のバーの設定 */
 body {
   background: #ffffff;
   font-size: 18px;
@@ -28,6 +29,7 @@ body {
   color: #b2b8c2;
 }
 
+
 .gridworld {
   display: flex;
   flex-wrap: wrap;
@@ -35,11 +37,11 @@ body {
 }
 
 .grid-item {
-  /* background-color: aqua; */
-  text-align: center;
+  background-color: aqua;
+  /* text-align: center; */
   width: 150px;
   height: 200px;
-  /* object-fit: cover; */
+  object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
@@ -58,7 +60,71 @@ body {
     text-align: center;
     /* clear: left; */
   }
-  
+}
+
+.membertable {
+  width: 800px;
+}
+
+body,
+td,
+th,
+tr,
+p,
+a {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px
+}
+
+strong {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+heading {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 22px;
+}
+
+papertitle {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700
+}
+
+name {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 32px;
+}
+
+.one {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+.two {
+  width: 160px;
+  height: 160px;
+  position: absolute;
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+.fade {
+  transition: opacity .2s ease-in-out;
+  -moz-transition: opacity .2s ease-in-out;
+  -webkit-transition: opacity .2s ease-in-out;
+}
+
+span.highlight {
+  background-color: #ffffd0;
+}
+
+a:focus,a:hover {
+  color: #f09228;
+  text-decoration: none;
 }
 
 
