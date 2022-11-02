@@ -41,6 +41,9 @@ body {
 .grid-item {
   /* background-color: aqua; */
   text-align: center;
+  width: 100px;
+  height: 100px;
+  
 }
 
 @media screen and (max-width: 768px) {
