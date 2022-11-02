@@ -29,11 +29,12 @@ body {
 }
 
 .gridworld {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  /* justify-content: flex-end; */
   /* grid-template-rows: 150px 150px 50px; */
-  grid-auto-rows: auto;
+  /* grid-auto-rows: auto; */
   /* grid-auto-columns: minmax(auto, 150px); */
   gap: 20px;
 }
@@ -41,9 +42,9 @@ body {
 .grid-item {
   /* background-color: aqua; */
   text-align: center;
-  width: 100px;
-  height: 100px;
-  
+  width: 150px;
+  height: 200px;
+  /* object-fit: cover; */
 }
 
 @media screen and (max-width: 768px) {
