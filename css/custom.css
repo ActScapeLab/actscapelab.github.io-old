@@ -1,0 +1,268 @@
+/* Your custom css code goes here */
+a.award {
+  color: #E9967A;
+}
+
+.probootstrap-logo > span {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.probootstrap-section {
+  background: #ffffff;
+  font-size: 18px;
+  font-family: "Abel", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #b2b8c2;
+}
+
+h2.name {
+  letter-spacing: 1.5px;
+}
+
+h2.name > .jp_kanji {
+  font-weight: 300;
+  font-size: 0.640em;
+}
+
+h2.name > .jp_kana {
+  font-weight: 300;
+  font-size: 0.600em;
+}
+
+h3.name > .jp_kanji {
+  font-weight: 300;
+  font-size: 0.640em;
+}
+
+h3.name > .jp_kana {
+  font-weight: 300;
+  font-size: 0.600em;
+}
+
+ul.profile {
+  color: #343a40;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  font-weight: 300;
+}
+
+.probootstrap-section p, ul.black, ol.awards li.jp, .en {
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
+}
+
+.thesis p {
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
+}
+
+span.thesis-title {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/*
+.probootstrap-section ol.awards li.en {
+  background: #ffffff;
+  font-size: 17px;
+  font-family: "Abel", sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #000000;
+}
+*/
+
+span.note {
+  background: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  <!-- color: #b2b8c2; -->
+}
+
+span.smallnote {
+  background: #ffffff;
+  font-size: 12px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  <!-- color: #b2b8c2; -->
+}
+
+/* -- for Abel
+p.jp {
+  font-size: 15px;
+}
+
+p.jp > span {
+  font-size: 18px;
+}
+-- */
+
+p.probootstrap-copyright {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+p.probootstrap-copyright span{
+  font-size: 14px;
+}
+
+p.update {
+  background: #ffffff;
+  font-size: 14px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #A9A9A9;
+}
+
+p.introduction {
+  background: #ffffff;
+  font-size: 13px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  <!-- color: #A9A9A9; -->
+}
+
+p.project {
+  background: #ffffff;
+  font-size: 12.5px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  <!-- color: #A9A9A9; -->
+}
+
+p.relatedworks {
+  color: #383838;
+}
+
+p.figure {
+  font-weight: 300;
+  text-align:center;
+}
+
+
+p.right {
+  text-align: right;
+}
+
+span.date, .tag {
+  background: #ffffff;
+  font-size: 16px;
+  font-family: "Abel", 'Noto Sans JP', sans-serif;
+  line-height: 1.8;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #b2b8c2;
+}
+
+span.journal {
+  font-style: italic;
+}
+
+span.jp {
+  font-size: 15px;
+}
+
+/* span は意味を持たないタグ */
+span.award-name {
+  color: #000000;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+span.acceptance-rate {
+  color: #E9967A;
+}
+
+span.strong {
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP Medium', sans-serif;
+  font-weight: bolder;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  <!-- color: #b2b8c2; -->
+}
+
+span.underline {
+  text-decoration: underline;
+}
+
+span.roundbox {
+    color: #E9967A;/*文字色*/
+    border: solid 1px #E9967A;/*線*/
+    border-radius: 5px;/*角の丸み*/
+}
+
+/* -- ol -- */
+ol {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    counter-reset: number;
+}
+
+ol li:before {
+    counter-increment: number;
+    content: counter(number) ". ";
+    display: inline-block;
+    font-variant: normal;
+    text-rendering: auto;
+    text-align: right;
+    position: absolute;
+    left: 0em;
+    width: 2em;
+}
+
+ol li {
+    position: relative;
+    padding: 0.5em 0;
+    padding-left: 3.5em;
+    padding-right: 1.5em;
+}
+
+ul.about li {wrapperprobootstrap-section
+    position: relative;
+    padding: 0.5em 0;
+    padding-left: 0.5em;
+    /*padding-right: 1.5em;*/
+}
+
+/* -- background color -- */
+.bg_test {
+  background-color: rgb(228, 224, 137, 0.8);
+}
