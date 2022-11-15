@@ -29,73 +29,94 @@ body {
   color: #b2b8c2;
 }
 
-
-.gridworld {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.grid-item {
-  background-color: aqua;
-  /* text-align: center; */
-  width: 150px;
-  height: 200px;
-  object-fit: cover;
-}
-
 @media screen and (max-width: 768px) {
-  .gridworld {
-    display: grid;
-    grid-template-columns: 1fr;
-    justify-content: flex-end;
-    /* grid-template-rows: 150px 150px 50px; */
-    grid-auto-rows: auto;
-    /* grid-auto-columns: minmax(auto, 150px); */
-    gap: 20px;
+  .membertable{
+    margin: 10px 5px;
+    width: auto;
+    height: auto;
   }
- 
-  .grid-item {
-    /* background-color: aqua; */
+  .membertable th,
+  .membertable td{
+    padding: 10px;
+    border-bottom: none;
+    /* vertical-align: middle; */
+    display: block;
+    width: 100%;
+    /* margin: px; */
     text-align: center;
-    /* clear: left; */
+    /* vertical-align: middle; */
+  }
+  .membertable ul{
+    display: none;
+  }
+  .probootstrap-section {
+    padding: 3em 0;
+  }
+  .probootstrap-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .probootstrap-logo {
+    padding-left: 0px;
+  }
+  .probootstrap-section {
+    padding: 3em 0;
+  }
+  .probootstrap-owl-navigation.absolute {
+    position: relative;
+    margin-bottom: 40px;
+  }
+  .probootstrap-footer {
+    padding: 3em 0;
+  }
+  .probootstrap-footer .probootstrap-copyright {
+    float: none;
+  }
+  .probootstrap-footer .probootstrap-social {
+    float: none;
+  }
+  .probootstrap-footer-widget.right {
+    text-align: left;
+  }
+  .probootstrap-link-wrap {
+    padding-left: 0;
+  }
+  .slides-text h2 {
+    font-size: 30px;
+  }
+  .slides-text p {
+    font-size: 16px;
+  }
+  .slides-text {
+    padding-top: 150px;
   }
 }
 
 .membertable {
-  width: 800px;
+  width: 100%;
+  /* cellpadding: 3; */
 }
 
-/* body,
-td,
-th,
-tr,
-p,
-a {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px
+.membertable table{
+  width: 100%;
+  border-collapse: separate;
+  /* cellpadding: 3; */
 }
 
-strong {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+table td{
+  padding: 5px;
 }
 
-heading {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 22px;
+
+.intropicture{
+  width:25%;
+  vertical-align:middle;
 }
 
-papertitle {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
-  font-weight: 700
+.explanation {
+  width: 100%;
+  height: auto;
 }
-
-name {
-  font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 32px;
-} */
 
 .one {
   width: 160px;
@@ -200,13 +221,6 @@ a:hover, a:focus {
   top: 0;
 }
 
-@media screen and (max-width: 768px) {
-  .probootstrap-header {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-}
-
 .probootstrap-logo {
   float: left;
   color: #5068A9;
@@ -221,12 +235,6 @@ a:hover, a:focus {
 
 .probootstrap-logo:hover, .probootstrap-logo:focus, .probootstrap-logo:active {
   color: #5068A9;
-}
-
-@media screen and (max-width: 768px) {
-  .probootstrap-logo {
-    padding-left: 0px;
-  }
 }
 
 .probootstrap-nav {
@@ -680,12 +688,6 @@ a:hover, a:focus {
   background: #f7f7f7;
 }
 
-@media screen and (max-width: 768px) {
-  .probootstrap-section {
-    padding: 3em 0;
-  }
-}
-
 .probootstrap-section.probootstrap-bg {
   background-size: cover;
   background-repeat: no-repeat;
@@ -760,13 +762,6 @@ a:hover, a:focus {
   top: 2px;
 }
 
-@media screen and (max-width: 768px) {
-  .probootstrap-owl-navigation.absolute {
-    position: relative;
-    margin-bottom: 40px;
-  }
-}
-
 .probootstrap-owl-navigation.absolute.right {
   right: 10px;
 }
@@ -797,30 +792,13 @@ a:hover, a:focus {
   padding: 5em 0;
 }
 
-@media screen and (max-width: 768px) {
-  .probootstrap-footer {
-    padding: 3em 0;
-  }
-}
 
 .probootstrap-footer .probootstrap-copyright {
   float: left;
 }
 
-@media screen and (max-width: 768px) {
-  .probootstrap-footer .probootstrap-copyright {
-    float: none;
-  }
-}
-
 .probootstrap-footer .probootstrap-social {
   float: right;
-}
-
-@media screen and (max-width: 768px) {
-  .probootstrap-footer .probootstrap-social {
-    float: none;
-  }
 }
 
 .probootstrap-footer-widget {
@@ -841,22 +819,9 @@ a:hover, a:focus {
   text-align: right;
 }
 
-@media screen and (max-width: 768px) {
-  .probootstrap-footer-widget.right {
-    text-align: left;
-  }
-}
-
 .probootstrap-link-wrap {
   padding-left: 40px;
 }
-
-@media screen and (max-width: 970px) {
-  .probootstrap-link-wrap {
-    padding-left: 0;
-  }
-}
-
 .stack-link {
   padding: 0;
   margin: 0;
@@ -1094,26 +1059,8 @@ figure:hover figcaption, figure:focus figcaption {
   text-transform: uppercase;
 }
 
-@media screen and (max-width: 768px) {
-  .slides-text h2 {
-    font-size: 30px;
-  }
-}
-
 .slides-text p {
   font-size: 18px;
-}
-
-@media screen and (max-width: 768px) {
-  .slides-text p {
-    font-size: 16px;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .slides-text {
-    padding-top: 150px;
-  }
 }
 
 .probootstrap-card {
