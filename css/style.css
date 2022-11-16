@@ -30,26 +30,6 @@ body {
 }
 
 @media screen and (max-width: 768px) {
-  .membertable{
-    /* margin: 10px 5px; */
-    width: auto;
-    height: auto;
-  }
-
-  .membertable th,
-  .membertable td{
-    /* padding: 10px; */
-    border-bottom: none;
-    /* vertical-align: middle; */
-    display: block;
-    width: 100%;
-    /* margin: px; */
-    text-align: center;
-    /* vertical-align: middle; */
-  }
-  .membertable ul{
-    display: none;
-  }
   .probootstrap-section {
     padding: 3em 0;
   }
@@ -86,11 +66,6 @@ body {
   }
   .slides-text {
     padding-top: 150px;
-  }
-
-  .location-map iframe{
-    width: auto;
-    height: auto;
   }
 }
 
@@ -163,17 +138,6 @@ iframe{
 
 .slick-dots .slick-active button{
    background:#333;/*ドットボタンの現在地表示の色*/
-}
-
-.membertable {
-  width: 100%;
-  /* cellpadding: 3; */
-}
-
-.membertable table{
-  width: 100%;
-  border-collapse: separate;
-  /* cellpadding: 3; */
 }
 
 table td{
