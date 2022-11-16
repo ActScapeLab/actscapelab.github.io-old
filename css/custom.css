@@ -178,6 +178,44 @@ p.right {
   text-align: right;
 }
 
+/* 自己紹介ページのスタイル */
+img.member-img {
+  border-radius:50%;
+  width:150px;
+  height:150px;
+  text-align: left;
+  margin: 10px;
+}
+
+.self-table th,
+.self-table td {
+  color: #000000;
+  padding: 0 0;
+  text-align: left;
+}
+
+h1.self-name {
+  font-size: larger;
+  margin-bottom: 3px;
+}
+
+td.self-contents-title {
+  width: 10em;
+  font-size: medium;
+  margin-top: 10px;
+}
+td.self-contents-title:before {
+  content: "<";
+}
+td.self-contents-title:after {
+  content: ">";
+}
+
+td.self-contents {
+  margin-bottom: 0;
+  word-break: keep-all;
+}
+
 span.date, .tag {
   background: #ffffff;
   font-size: 16px;

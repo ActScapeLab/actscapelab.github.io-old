@@ -53,10 +53,6 @@ body {
   .probootstrap-section {
     padding: 3em 0;
   }
-  .probootstrap-header {
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
   .probootstrap-logo {
     padding-left: 0px;
   }
@@ -296,6 +292,13 @@ a:hover, a:focus {
   position: relative;
   background: #F2F2F2;
   top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .probootstrap-header {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
 }
 
 .probootstrap-logo {
@@ -935,6 +938,7 @@ a:hover, a:focus {
   line-height: 1.65;
 }
 
+/* TODO: 削除 */
 .member img {
   border-radius:50%;
   width:150px;
