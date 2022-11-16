@@ -91,6 +91,11 @@ body {
   .slides-text {
     padding-top: 150px;
   }
+
+  .location{
+    width: auto;
+    height: auto;
+  }
 }
 
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
