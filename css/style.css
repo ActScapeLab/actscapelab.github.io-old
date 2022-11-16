@@ -92,10 +92,14 @@ body {
     padding-top: 150px;
   }
 
-  .location-map{
+  .location-map iframe{
     width: auto;
     height: auto;
   }
+}
+
+iframe{
+  width: 100%;
 }
 
 .slider {/*横幅94%で左右に余白を持たせて中央寄せ*/
