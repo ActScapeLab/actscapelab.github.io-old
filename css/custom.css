@@ -197,13 +197,6 @@ span.jp {
   font-size: 15px;
 }
 
-/* span は意味を持たないタグ */
-span.award-name {
-  color: #000000;
-  font-size: 15px;
-  font-weight: 100;
-}
-
 span.acceptance-rate {
   color: #E9967A;
 }
