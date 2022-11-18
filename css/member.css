@@ -49,14 +49,28 @@ img.member-img {
 }
 
 h1.self-name {
-  font-size: larger;
   margin-bottom: 3px;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
 }
 
 td.self-contents-title {
   width: 10em;
-  font-size: medium;
   margin-top: 10px;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
 }
 td.self-contents-title:before {
   content: "<";
@@ -66,14 +80,28 @@ td.self-contents-title:after {
 }
 
 td.self-contents {
+  font-size: 15px;
   margin-bottom: 0;
   word-break: keep-all;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
 }
 
 /* 卒業生 */
 /* span は行内の数文字に対して特殊な処理をしたいときに利用 */
 span.award-name {
-  color: #000000;
+  background: #ffffff;
   font-size: 15px;
-  font-weight: 100;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
 }
