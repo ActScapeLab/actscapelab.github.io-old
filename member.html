@@ -47,7 +47,6 @@
           <li><a href="index.html">Home</a></li>
           <li class="active"><a href="member.html">Member</a></li>
           <li><a href="news.html">News</a></li>
-          <!-- <li><a href="student_page.html">Student Page</a></li> -->
           <li><a href="research.html">Research</a></li>
           <li><a href="publications.html">Publication</a></li>
           <li><a href="contact.html">Contact</a></li>
@@ -495,5 +494,13 @@
   <script src="js/scripts.min.js"></script>
   <script src="js/main.min.js"></script>
   <script src="js/custom.js"></script>
+  <script>
+    if (navigator.userAgent.indexOf('iPhone') > 0) {
+    let body = document.getElementsByTagName('body')[0];
+    body.classList.add('iPhone');
+  }
+  </script>
+
+  
   </body>
 </html>
