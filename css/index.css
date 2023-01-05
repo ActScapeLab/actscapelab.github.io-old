@@ -1,0 +1,11 @@
+ul.updates {
+  margin-left: 20px;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
+}

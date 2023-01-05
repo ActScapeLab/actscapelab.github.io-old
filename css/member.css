@@ -1,0 +1,107 @@
+/* テーブル本体 */
+@media screen and (max-width: 768px) {
+  .membertable{
+    /* margin: 10px 5px; */
+    width: auto;
+    height: auto;
+  }
+
+  .membertable th,
+  .membertable td{
+    /* padding: 10px; */
+    border-bottom: none;
+    /* vertical-align: middle; */
+    display: block;
+    width: 100%;
+    /* margin: px; */
+    text-align: center;
+    /* vertical-align: middle; */
+  }
+  .membertable ul{
+    display: none;
+  }
+}
+
+.membertable {
+  width: 100%;
+}
+
+.membertable table{
+  width: 100%;
+  border-collapse: separate;
+}
+
+
+/* 各個人の自己紹介 */
+img.member-img {
+  border-radius:50%;
+  width:150px;
+  height:150px;
+  text-align: left;
+  margin: 10px;
+}
+
+.self-table th,
+.self-table td {
+  color: #000000;
+  padding: 0 0;
+  text-align: left;
+}
+
+h1.self-name {
+  margin-bottom: 3px;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
+}
+
+td.self-contents-title {
+  width: 10em;
+  margin-top: 10px;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
+}
+td.self-contents-title:before {
+  content: "<";
+}
+td.self-contents-title:after {
+  content: ">";
+}
+
+td.self-contents {
+  font-size: 15px;
+  margin-bottom: 0;
+  word-break: keep-all;
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
+}
+
+/* 卒業生 */
+/* span は行内の数文字に対して特殊な処理をしたいときに利用 */
+span.award-name {
+  background: #ffffff;
+  font-size: 15px;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+  line-height: 1.5;
+  font-weight: 300;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  color: #383838;
+}
